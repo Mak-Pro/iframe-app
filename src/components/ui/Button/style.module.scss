@@ -1,0 +1,31 @@
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  height: 40px;
+  padding: 0 16px;
+
+  &__disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  &__small {
+    font-size: 12px;
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 13px;
+  }
+
+  &__large {
+    font-size: 20px;
+    height: 52px;
+    border-radius: 18px;
+  }
+}

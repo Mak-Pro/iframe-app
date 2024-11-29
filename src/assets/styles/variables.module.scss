@@ -1,0 +1,21 @@
+:export {
+  // colors
+  white: $white;
+
+  // breakpoints
+  width349: $width-349;
+  width599: $width-599;
+  width767: $width-767;
+  width992: $width-992;
+  width1199: $width-1199;
+  width1299: $width-1299;
+  width1399: $width-1399;
+  width1440: $width-1440;
+  width1499: $width-1499;
+  width1600: $width-1600;
+
+  // layout
+  containerWidth: $container-width;
+
+  containerGlobalPadding: $container-global-padding;
+}
